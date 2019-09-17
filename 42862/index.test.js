@@ -28,5 +28,12 @@ describe("체육복", () => {
         const result = solution(n, lost, reserve)
         expect(result).to.eql(2)
     });
+    it("test4", () => {
+        const n = 10
+        const lost = [2, 3, 4, 5]
+        const reserve = [3, 5, 7]
+        const result = solution(n, lost, reserve)
+        expect(result).to.eql(8)
+    });
 
 });
