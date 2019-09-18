@@ -19,8 +19,8 @@ function solution(answers) {
     const max = Math.max(player1Count, player2Count, player3Count)
     const result = []
     if (player1Count === max) result.push(1)
-    if (player2Count === max) result.push(3)
-    if (player3Count === max) result.push(2)
+    if (player2Count === max) result.push(2)
+    if (player3Count === max) result.push(3)
     return result.sort((a, b) => a - b)
 }
 
